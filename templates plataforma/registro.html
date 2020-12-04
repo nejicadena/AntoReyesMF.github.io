@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Making Friends</title>
-	<link rel="stylesheet" href="css/registro.css">
+  <title>Making Friends</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+  <link rel="stylesheet" href="css/login.css">
 </head>
+
 <body>
-<div class='bold-line'></div>
-<div class='container'>
-  <div class='window'>
-    <div class='overlay'></div>
-    <div class='content'>
-      <div class='welcome'>Accede a tu cuenta</div>
-      <div class='input-fields'>
-        <input type='email' placeholder='Email' class='input-line full-width'></input>
-        <input type='password' placeholder='Contraseña' class='input-line full-width'></input>
-      </div>
-      <div class='spacing'> continua con <span class='facebook'>Facebook</span></div>
-      <div class='spacing'> continua con <span class='google'>Google</span></div>
-      <a href="marketplace.html">
-      <div><button class='ghost-round full-width'>Acceder</button></div>
-    </a>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div id="title">
+    <img src="images/logos/mf.png"  height="200" width="200" style="padding-top: 2rem;">
+    <h2>Accede a tu cuenta</h2>    
+  </div>
+  <div class="form col-md-12">
+      <form>    
+        <h3>Email</h3>
+        <input type="text" class="col-md-6" >
+        <h3>Contraseña</h3>
+        <input type="password" class="col-md-6" >
+        <a href="perfil.html">
+        <h3>Olvidé mi contraseña</h3>
+        </a>
+
+        <a href="perfil.html"> 
+        <input type="button"  class="col-md-6" value="Entrar">  
+        </a>
+      </form>
     </div>
   </div>
-</div>
+<!-- partial -->
+  
 </body>
 </html>

@@ -8,11 +8,11 @@ body {
   color: #000000;
 
 }
-
-#title h2 {
+ h2 {
   padding: 20px;
   font-weight: bold;
   color: #000000;
+  margin-top: 0rem;
 }
 
 h3 {
@@ -33,11 +33,9 @@ input[type=button] {
   color: #ffffff;
   background-color: #DE2276;
   color: #ffffff;
+  width: 10rem;
 }
 
-input[type=text]:hover, textarea:hover {
-  box-shadow: inset 0px 0px 0px 3px #DE2276;
-}
 
 input[type=date] {
   text-align: center;

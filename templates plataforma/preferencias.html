@@ -3,6 +3,7 @@
 <head>
   <title>Preferencias</title>
 <link rel='stylesheet' href="css/preferencias.css">
+<script src="js/preguntas.js"></script>
 
 </head>
 <body>
@@ -11,10 +12,10 @@
   <div id="title">
     <h2>Conocerte nos ayudará a guiarte y saber <br> que herramientas necesitas</h2>    
   </div>
-  <div class="form col-md-12">
-			<form>	
+  <div class="form col-md-12">	
       
         <legend>¿Estudias o trabajas?</legend>
+
     <input type="checkbox" id="check1" name="checkboxes" >
     <label for="check1">Estudio</label>
     <input type="checkbox" id="check2" name="checkboxes">
@@ -23,10 +24,10 @@
     <label for="check3">Ambos</label>
         
         <legend>¿Tienes algun proyecto o idea en mente?</legend>
-				<input type="checkbox" id="check1" name="checkboxes" >
-    <label for="check1">Si</label>
-    <input type="checkbox" id="check2" name="checkboxes">
-    <label for="check2">No</label>
+<section class="preguntas" style="background-color:#ffffff" >
+<button onclick="funtion()" >Si</button> 
+  <button onclick="funtion1()"> No</button>
+<div id="si">
 
 <legend>¿Qué problema estoy tratando de resolver con mi idea?</legend> <br>
     <textarea name="textarea" id="textarea" placeholder="  Cuentános sobre el..."></textarea>
@@ -85,14 +86,33 @@
 <input type="checkbox" id="check2" name="checkboxes">
     <label for="check2">Personal</label> <br>
 
-    <a href="perfil.html">
+    <a href="marketplace.html">
         <input type="button" class="col-md-6" value="Seguir">   
         </a>  
-    
-			</form>
+
 		</div>
 	</div>
+</div>
 
+<div id="no">
+<section class="preguntas2" style="background-color:#ffffff" >
+  <legend>¿Qué te gustaría aprender? </legend>
+        <input type="checkbox" id="check1" name="checkboxes">
+    <label for="check1">Social</label>
+    <input type="checkbox" id="check2" name="checkboxes">
+    <label for="check2">LGBT+</label>
+    <input type="checkbox" id="check2" name="checkboxes">
+    <label for="check2">Fintech</label>
+    <input type="checkbox" id="check2" name="checkboxes">
+    <label for="check2">Negocios</label>
+<input type="checkbox" id="check2" name="checkboxes">
+    <label for="check2">Salud</label> <br>
+    <a href="marketplace.html">
+        <input type="button" class="col-md-6" value="Seguir">   
+        </a>  
+</div>
+</section>
+</section>
   
 </body>
 </html>

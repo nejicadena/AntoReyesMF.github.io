@@ -4,12 +4,13 @@ body {
   font-family: 'montserrat';
   font-weight: 300;
   font-size: 16px;
+  margin: 0rem;
 }
 .portada{
   text-align: center;
   background-size: cover;
   width: 100%;
-  margin: auto;
+  margin: top;
 }
 
 .btn{
@@ -17,7 +18,7 @@ body {
     color: #ffffff;
     width: 20rem;
     border-radius: 300px;
-    background-color:transparent;
+    background-color:#DE2276;
     margin: 4rem;
     cursor: pointer;
     line-height: 1.5em;
@@ -25,6 +26,7 @@ body {
     border-width: .3rem;
     width: 14rem;
 }
+
 
 .descrip{
   font-family: montserrat;
@@ -77,19 +79,28 @@ p{
   text-align: center;
   margin: 0rem;
 }
+
+h5{
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+h6{
+	font-size: 1rem;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	font-weight: normal;
+}
+
+#faqs{
+	display: none;
+}
+
+
 .numeralia{
   max-width: 100%;
 }
-.btn{
-  border-color: #DE2276;
-    color: #000000;
-    border-radius: 300px;
-    background-color: transparent;
-    margin: 4rem;
-    cursor: pointer;
-    line-height: 1.5em;
-    border-width: .3rem;
-}
+
 
 /* Put behind .flexbox for Feature detection with Modernizr */
 .flexbox .flex-card-list {
@@ -126,7 +137,8 @@ p{
 }
 
 .flex-card-button {
-  background-color: #00aeef;
+  background-color: #DE2276;
+  border-radius: 300px;
   padding: 1em;
   text-align:center;
   text-decoration: none;
@@ -167,4 +179,6 @@ p{
   position: relative;
   left: 66.6%;
 }
+
+
 
