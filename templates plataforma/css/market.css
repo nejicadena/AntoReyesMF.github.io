@@ -1,33 +1,11 @@
 body {
   background-color: #ECEFF1;
   color: #37474F;
-  font-family: 'montserrat', sans-serif;
+  font-family: 'montserrat';
   font-weight: 300;
   font-size: 16px;
 }
-  -webkit-animation: fa-spin-fast 0.2s infinite linear;
-  animation: fa-spin-fast 0.2s infinite linear;
-}
-@-webkit-keyframes fa-spin-fast {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-@keyframes fa-spin-fast {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
+
 #menu{
   position: absolute;
   width: 200px;
@@ -139,8 +117,15 @@ body {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
+a{
+  text-decoration:none;
+  color: #ffffff;
+}
 
-
+a:hover{
+  text-decoration:none;
+  color: #ffffff;
+}
 
 
 .material-card {
@@ -218,7 +203,7 @@ body {
   height: 54px;
   line-height: 44px;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   z-index: 20;
   -webkit-transition: all 0.3s;
@@ -226,6 +211,7 @@ body {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  background-color:#DE2276; 
 }
 .material-card.mc-active .mc-btn-action {
   top: 62px;
@@ -353,9 +339,6 @@ body {
   background-color: #DE2276;
 }
 
-.material-card.Red .mc-btn-action:hover {
-  background-color: #DE2276;
-}
 .material-card.Red .mc-footer h4 {
   color: #B71C1C;
 }
@@ -388,13 +371,6 @@ h6{
 }
 
 
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-
-
 .img-logo{
   padding-top: 10rem;
   width: 100%
@@ -415,4 +391,7 @@ h6{
     line-height: 1.5em;
     font-size: 1.5rem;
     border-width: .3rem;
+}
+.btn:hover{
+  color: #ffffff;
 }
