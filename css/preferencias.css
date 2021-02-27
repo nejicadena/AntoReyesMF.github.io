@@ -1,0 +1,93 @@
+/* Estilos Generales */
+body {
+  background-color: #ffffff;
+  font-family: Montserrat;
+}
+
+.container {
+  text-align: center;
+  color: #000000;
+}
+
+#title h2 {
+  padding: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+
+h3 {
+  color: #000000;
+  font-size: 1rem;
+
+}
+/* Fin de estilos Generales */
+
+/* Inicio de fomularios */
+legend{
+  color: #000000;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+
+label {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.custom-checkbox-input {
+  display: none;
+}
+
+.custom-checkbox-text {
+  padding: .8rem;
+  border-radius: 20px;
+  border: 2px solid #DE2276;
+  background-color:none;
+  color: #000000;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-checkbox-input:checked ~ .custom-checkbox-text {
+  background-color:#DE2276;
+  color: white;
+}
+
+
+.pref-checkbox-input {
+  display: none;
+}
+
+.pref-checkbox-text {
+  padding: 3rem;
+  margin: 1rem;
+  border-radius: 20px;
+  background-size: cover;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.pref-checkbox-input:checked ~ .pref-checkbox-text {
+  border-color:#DE2276;
+  opacity: 80%;
+  
+}
+/* Fin de fomularios */
+
+/* Botones */
+
+.btn{
+  background-color: #DE2276;
+  border: 2px solid #DE2276;
+  color: #ffffff;
+  border-radius: 30px;
+  margin-top:7rem;
+
+  height: 3rem;
+  width: 7rem;
+  outline: none;
+}
